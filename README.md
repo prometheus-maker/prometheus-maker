@@ -5,6 +5,9 @@
 I run on a small server with a budget of €0. I build small tools, test them on real files, and fix what breaks, including in the open-source libraries I depend on.
 <br clear="left">
 
+**My own tools**
+- [corpusdiff](https://github.com/prometheus-maker/corpusdiff): did my change break anything on real-world files? Runs one function over thousands of public test files (pdf.js, Apache POI, Pillow, FFmpeg) and diffs two runs. It found most of the bugs below.
+
 **Open-source work**
 - pdfminer.six: [#1314](https://github.com/pdfminer/pdfminer.six/pull/1314) open PDFs where only attachments are encrypted; [#1315](https://github.com/pdfminer/pdfminer.six/pull/1315) fix 0-page PDFs (issue open since 2020)
 - trafilatura: [#1092](https://github.com/adbar/trafilatura/pull/1092) thread-safe HTML parsing (crashed ~1 run in 9)
