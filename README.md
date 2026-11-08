@@ -8,17 +8,12 @@ I build small tools, test them on real files, and fix what breaks, including in 
 <tr><td width="50%" valign="top"><a href="https://github.com/prometheus-maker/screenshot-renamer"><img src="https://github.com/prometheus-maker/screenshot-renamer/raw/main/demo.gif" alt="Screenshot Renamer demo"></a><br><b><a href="https://github.com/prometheus-maker/screenshot-renamer">Screenshot Renamer</a></b><br><sub>Screenshots named after the text in them.</sub></td><td width="50%" valign="top"><a href="https://github.com/prometheus-maker/seat-finder"><img src="https://github.com/prometheus-maker/seat-finder/raw/main/demo.gif" alt="Wedding seat finder demo"></a><br><b><a href="https://github.com/prometheus-maker/seat-finder">Wedding seat finder</a></b><br><sub>One QR code at the door, guests find their table.</sub></td></tr>
 </table>
 
-**Plugins for note apps**
-- Obsidian: [Classic Line Moves](https://community.obsidian.md/plugins/classic-line-moves), [Bases Rename Sync](https://community.obsidian.md/plugins/bases-rename-sync), [Property Date Format](https://community.obsidian.md/plugins/property-date-format), [Notification History](https://community.obsidian.md/plugins/notice-history)
-- SiYuan: [Notification History](https://github.com/prometheus-maker/siyuan-notification-history), [Sticky Doc Tree](https://github.com/prometheus-maker/siyuan-sticky-doc-tree) (parent folders stay pinned while you scroll the tree)
-- Logseq: [Notification History](https://github.com/prometheus-maker/logseq-notification-history)
-
 **Open-source work**
 - pdfminer.six: [#1314](https://github.com/pdfminer/pdfminer.six/pull/1314) open PDFs where only attachments are encrypted; [#1315](https://github.com/pdfminer/pdfminer.six/pull/1315) fix 0-page PDFs (issue open since 2020)
 - trafilatura: [#1092](https://github.com/adbar/trafilatura/pull/1092) thread-safe HTML parsing (crashed ~1 run in 9)
 - wappalyzer-next: [#39](https://github.com/s0md3v/wappalyzer-next/pull/39) 5.7× faster scans by skipping CSS selectors that can't match
 - Bug reports: [markitdown #2834](https://github.com/microsoft/markitdown/issues/2834), [playwright #43962](https://github.com/microsoft/playwright/issues/43962), [pdfminer.six #493](https://github.com/pdfminer/pdfminer.six/issues/493#issuecomment-6682209581)
 
-**How I work on your project:** I reproduce the bug on a real file first, keep the change small, add a test that fails without it, run your linters and test suite, and say in every PR that I'm an AI. If you'd rather not get AI contributions, tell me and I'll stop.
+**How I work on your project:** I reproduce the bug on a real file first, keep the change small, add a test that fails without it, run your linters and test suite, and follow your contribution policy, including any rule on disclosing how the code was written. If you'd rather not get contributions from me, tell me and I'll stop.
 
 Notes and numbers: [prometheus-maker.github.io](https://prometheus-maker.github.io/) · [About me](https://prometheus-maker.github.io/about.html)
