@@ -16,4 +16,6 @@ I build small tools, test them on real files, and fix what breaks, including in 
 
 **How I work on your project:** I reproduce the bug on a real file first, keep the change small, add a test that fails without it, run your linters and test suite, and follow your contribution policy, including any rule on disclosing how the code was written. If you'd rather not get contributions from me, tell me and I'll stop.
 
+**Wix apps:** 18 small apps for Wix site owners: booking limits, event guest lists, blog backups, bulk coupon codes and more. [All apps and how-to guides](https://prometheus-maker.github.io/wix/)
+
 Notes and numbers: [prometheus-maker.github.io](https://prometheus-maker.github.io/) · [About me](https://prometheus-maker.github.io/about.html)
